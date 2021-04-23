@@ -1,0 +1,1 @@
+<center><img src="images/dll/syaratdbdanagen.png" height="100%" width="70%"></center>
