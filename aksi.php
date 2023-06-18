@@ -238,7 +238,7 @@ if ($module=='register' AND $act=='add'){
 
 						//include "classes/class.phpmailer.php";
 						include('lib/class/email/class.phpmailer.php');
-
+						/*
 						$mail = new PHPMailer; 
 						$mail->IsSMTP();
 						$mail->SMTPSecure = 'ssl'; 
@@ -247,7 +247,7 @@ if ($module=='register' AND $act=='add'){
 						$mail->Port = 465;
 						$mail->SMTPAuth = true;
 						$mail->Username = "info@sokasocks.com"; //user email
-						$mail->Password = "kaoskakiinfo75"; //password email 
+						$mail->Password = "password"; //password email 
 						$mail->SetFrom("info@sokasocks.com","Soka Info"); //set email pengirim
 						$mail->Subject = "Verifikasi Account Sokasocks.com"; //subyek email
 						$mail->AddAddress($email,$nama_lengkap);  //tujuan email
@@ -258,12 +258,12 @@ if ($module=='register' AND $act=='add'){
 						}else{
 							header('location:index.php?page=register&pesan=gagal_email');
 						}
-						//header('location:index.php?page=register-sukses');
+						*/
+						header('location:index.php?page=register-sukses');
 
 					}else{
 
 						//gagal tambah
-
 						header('location:index.php?page=register-sukses&pesan=gagal');
 
 					}

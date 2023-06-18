@@ -275,7 +275,7 @@
                  </table>
                  </body>
                  </html>";
-
+/*
 			$mail = new PHPMailer; 
 			$mail->IsSMTP();
 			$mail->SMTPSecure = 'ssl'; 
@@ -284,7 +284,7 @@
 			$mail->Port = 465;
 			$mail->SMTPAuth = true;
 			$mail->Username = "billing@sokasocks.com"; //user email
-			$mail->Password = "kaoskakibiling74"; //password email 
+			$mail->Password = "password"; //password email 
 			$mail->SetFrom("billing@sokasocks.com","Soka Payment"); //set email pengirim
 			$mail->Subject = "Order #". $no_pesan .""; //subyek email
 			$mail->AddAddress($email,$nama_lengkap);  //tujuan email
@@ -305,7 +305,7 @@
 			}else{
 				//gagal
 			}
-			
+*/			
             }
         ?>
 <div class="container-payment wrapper">

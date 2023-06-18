@@ -5,7 +5,7 @@ class database
 	var $host = "localhost";
 	var $pengguna = "root";
 	var $kata_kunci = "";
-	var $db = array("sokasocks_db");
+	var $db = array("sokasocks_db","sokasocks_db");
 	var $count;
 
 	function __construct($i)

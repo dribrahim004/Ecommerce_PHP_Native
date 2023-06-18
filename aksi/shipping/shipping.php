@@ -17,6 +17,15 @@
 	$berat = $_POST['berat'];
 	$voucher = $_POST['voucher'];
 
+	//set manual karena api tidak konek
+	$code='jne';
+	$nama='Jalur Nugraha Ekakurir (JNE)';
+	$service='REG';
+	$description='Layanan Reguler';
+	$value='11000';
+	$etd='1-3';
+	$berat='370';
+
 	if ( !empty($id) AND !empty($id_p) AND !empty($id_a) AND !empty($code) AND !empty($nama) 
 			AND !empty($service) AND !empty($description) AND !empty($value) AND !empty($etd) AND !empty($berat) ){
 
@@ -62,11 +71,11 @@
 		                      tgl_input = now(),
 		                      catatan = '". $catatan . "',
 		                      id_alamat = '". $id_alamat . "',
-		                      code_pengirim = '". $code . "',
-		                      nama_pengirim = '". $nama . "',
-		                      service_pengirim = '". $service . "',
-		                      description_pengirim = '". $description . "',
-		                      value_pengirim = '". $value . "',
+		                      code_pengirim = '". $code . "', 
+		                      nama_pengirim = '". $nama . "', 
+		                      service_pengirim = '". $service . "', 
+		                      description_pengirim = '". $description . "', 
+		                      value_pengirim = '". $value . "', 
 		                      etd_pengirim = '". $etd . "',
 		                      berat_produk = '". $berat . "',
 		                      kode_transaksi = '". $kode_transaksi . "',
